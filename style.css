@@ -6,7 +6,7 @@
     --accent-gold: #c5a059;
 }
 
-/* --- RESET --- */
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +26,6 @@ h1, h2, h3, .logo {
     color: var(--accent-gold);
 }
 
-/* --- NAVIGATION BAR (Flexbox Requirement) --- */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -60,7 +59,6 @@ h1, h2, h3, .logo {
     color: var(--accent-gold);
 }
 
-/* --- HERO SECTION (Flexbox Requirement) --- */
 .hero {
     display: flex;
     justify-content: space-between;
@@ -87,7 +85,7 @@ h1, h2, h3, .logo {
     max-width: 500px;
 }
 
-/* Call to Action Button */
+
 .cta-button {
     display: inline-block;
     padding: 15px 35px;
@@ -119,7 +117,6 @@ h1, h2, h3, .logo {
     box-shadow: 0 15px 40px rgba(0,0,0,0.6);
 }
 
-/* --- FEATURES SECTION (Flexbox Requirement) --- */
 .features {
     display: flex;
     justify-content: space-around;
@@ -147,7 +144,7 @@ h1, h2, h3, .logo {
     font-size: 1rem;
 }
 
-/* --- FOOTER (Flexbox Requirement) --- */
+
 .footer {
     display: flex;
     justify-content: center;
@@ -157,7 +154,7 @@ h1, h2, h3, .logo {
     border-top: 1px solid #2a2a2a;
 }
 
-.footer p {
+
     font-size: 0.9rem;
     color: var(--text-muted);
 }
